@@ -1,0 +1,14 @@
+{
+  "name": "SteamLocalScreenshots",
+  "version": "1.0",
+  "manifest_version":2,
+  "description": "Shows the local path to the screenshots of the game",
+ "content_scripts": [
+  {
+    "matches": [
+      "https://steamcommunity.com/profiles/*/screenshots/"
+    ],
+    "js": ["content.js"]
+  }
+]
+}
